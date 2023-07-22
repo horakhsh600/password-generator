@@ -1,0 +1,155 @@
+@media all and (min-width: 781px) and (max-width: 4000px) {
+  * {
+    font-family: "Karla", sans-serif;
+  }
+  body {
+    background-image: linear-gradient(
+      to right,
+      #55f991,
+      #273549,
+      #4adf86,
+      #1f2937
+    );
+  }
+  main {
+    background-color: #1f2937;
+    width: 450px;
+    height: 480px;
+    padding: 0 35px;
+    display: block;
+    margin: 80px auto auto auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+  }
+  .container {
+    padding-top: 90px;
+  }
+  h1 {
+    color: white;
+    margin-bottom: -10px;
+  }
+  h1 > em {
+    font-style: normal;
+    color: #4adf86;
+  }
+  p {
+    color: #d5d4d8;
+  }
+  .input > input {
+    background: #273549;
+    border: none;
+    color: #55f991;
+    cursor: default;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 40px;
+  }
+  hr {
+    border: 1px solid #2f3e53;
+  }
+  input:focus {
+    outline: none;
+    border: none;
+  }
+  button {
+    background-color: #55f991;
+    border: none;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+@media all and (max-width: 780px) {
+  * {
+    font-family: "Karla", sans-serif;
+  }
+  body {
+    background-image: linear-gradient(
+      to right,
+      #55f991,
+      #273549,
+      #4adf86,
+      #1f2937
+    );
+  }
+  main {
+    background-color: #1f2937;
+    max-width: 450px;
+    width: 100%;
+    max-height: 480px;
+    height: 100%;
+    padding: 0 35px;
+    display: block;
+    margin: 80px auto auto auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+  }
+  .container {
+    padding-top: 90px;
+  }
+  h1 {
+    color: white;
+    margin-bottom: -10px;
+  }
+  h1 > em {
+    font-style: normal;
+    color: #4adf86;
+  }
+  p {
+    color: #d5d4d8;
+  }
+  .input > input {
+    background: #273549;
+    border: none;
+    color: #55f991;
+    cursor: default;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 40px;
+  }
+  hr {
+    border: 1px solid #2f3e53;
+  }
+  input:focus {
+    outline: none;
+    border: none;
+  }
+  button {
+    background-color: #55f991;
+    border: none;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+}
