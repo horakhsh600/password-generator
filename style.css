@@ -7,13 +7,19 @@ body {
     #55f991,
     #273549,
     #4adf86,
-    #1f2937
+    #1f2937,
+    #4adf86
   );
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
-main {
+.container {
   background-color: #1f2937;
-  width: 450px;
-  height: 480px;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  height: 400px;
   padding: 0 35px;
   display: block;
   margin: 80px auto auto auto;
@@ -25,6 +31,7 @@ main {
 .container {
   padding-top: 90px;
 }
+
 h1 {
   color: white;
   margin-bottom: -10px;
@@ -48,11 +55,19 @@ p {
   font-size: 16px;
 }
 .input {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
   margin: auto;
   gap: 40px;
+  margin-top: -10px;
+}
+img {
+  width: 20px;
+  margin: 0;
+  display: block;
+  margin-bottom: -40px;
 }
 hr {
   border: 1px solid #2f3e53;
@@ -61,7 +76,7 @@ input:focus {
   outline: none;
   border: none;
 }
-button {
+#btn {
   background-color: #55f991;
   border: none;
   padding: 9px 17px 9px 15px;
@@ -71,4 +86,16 @@ button {
   cursor: pointer;
   margin-top: 30px;
   margin-bottom: 20px;
+}
+#copy-btn-1 {
+  background-color: #ffffff00;
+  border: none;
+  margin-bottom: -30px;
+  cursor: pointer;
+}
+#copy-btn-2 {
+  background-color: #ffffff00;
+  border: none;
+  margin-bottom: -30px;
+  cursor: pointer;
 }
