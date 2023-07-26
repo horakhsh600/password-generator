@@ -33,8 +33,14 @@ btn.addEventListener("click", function () {
 copyBtn1.addEventListener("click", function () {
   inputfelid1.select();
   document.execCommand("copy");
+  setTimeout(() => {
+    copyBtn1.textContent = "Copied!✔";
+  }, 1);
 });
 copyBtn2.addEventListener("click", function () {
   inputfelid2.select();
   document.execCommand("copy");
+  setTimeout(() => {
+    copyBtn2.textContent = "Copied!✔";
+  }, 1);
 });

@@ -92,10 +92,16 @@ input:focus {
   border: none;
   margin-bottom: -30px;
   cursor: pointer;
+  color: white;
+  font-weight: bold;
+  text-align: left;
 }
 #copy-btn-2 {
   background-color: #ffffff00;
   border: none;
   margin-bottom: -30px;
   cursor: pointer;
+  color: white;
+  font-weight: bold;
+  text-align: left;
 }
