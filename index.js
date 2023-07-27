@@ -30,17 +30,23 @@ btn.addEventListener("click", function () {
 
   inputfelid2.value = password;
 });
+
 copyBtn1.addEventListener("click", function () {
   inputfelid1.select();
   document.execCommand("copy");
+  window.getSelection().removeAllRanges();
+  copyBtn1.textContent = "Copied!";
   setTimeout(() => {
-    copyBtn1.textContent = "Copied!✔";
-  }, 1);
+    copyBtn1.textContent = "Copy Password";
+  }, 2000);
 });
+
 copyBtn2.addEventListener("click", function () {
   inputfelid2.select();
   document.execCommand("copy");
+  window.getSelection().removeAllRanges();
+  copyBtn2.textContent = "Copied!";
   setTimeout(() => {
-    copyBtn2.textContent = "Copied!✔";
-  }, 1);
+    copyBtn2.textContent = "Copy Password";
+  }, 2000);
 });
